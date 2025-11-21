@@ -26,9 +26,12 @@
     border: 5px rgb(0, 0, 0) solid;
     border-radius: 10px;
     margin-left: 175px;
+    background-color: darkgrey;
 }
 .title p{
     display: inline-block;
+    border: 2px black solid ;
+    background-color: lightgrey;
 }
 #alipi{
     margin-left: 175px;
@@ -36,6 +39,7 @@
     border: 5px black solid;
     margin-top: 50px;
     text-align: center;
+    width: 100%;
 }
 #alipi p{
   display: inline-block;
