@@ -10,8 +10,8 @@ body {
 }
 
 /* --- Стили для хедера --- */
-.header {
-    background-color: #333; /* Темный фон */
+.main {
+    background-color: green; /* Темный фон */
     color: white;
     padding: 15px 30px;
     display: flex; /* Используем Flexbox */
@@ -25,7 +25,7 @@ body {
 }
 
 /* Стили для логотипа */
-.logo a {
+.name a {
     color: white;
     text-decoration: none; /* Убираем подчеркивание */
     font-size: 24px;
@@ -33,25 +33,34 @@ body {
 }
 
 /* Стили для навигационного меню */
-.nav-list {
+.list {
     list-style: none; /* Убираем маркеры списка */
     display: flex; /* Используем Flexbox для пунктов меню */
     gap: 20px; /* Отступ между пунктами меню */
 }
 
-.nav-item a {
+.list-item a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     padding: 5px 10px;
     transition: color 0.3s; /* Плавный переход для эффекта наведения */
 }
-
-.nav-item a:hover {
-    color: #ffcc00; /* Изменение цвета при наведении */
+.start{
+    text-align: center;
+    margin-top: 35px;
+    background-color: lightgray;
+    padding: 20px;
 }
-
-/* Для отступа основного контента, если хедер фиксированный */
-/* main {
-    padding-top: 80px; 
-} */
+.abc p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    
+}
